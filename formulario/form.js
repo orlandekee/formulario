@@ -133,7 +133,7 @@ function validar_repeatpassword(password){
     var repeatpassword = document.getElementById("repeatpassword").value;
     var div = document.getElementById("mnsj-password");
     var div2 = document.getElementById("mnsj-repeatpassword")
-    if(val_repeatpassword != ""){
+    if(repeatpassword != ""){
         if(repeatpassword.length > 2 && repeatpassword.length < 7){
             if(password == repeatpassword){
                 div.innerHTML = "";
